@@ -14,5 +14,5 @@ Pod::Spec.new do |spec|
   spec.authors      = { 'Cleber Todeschini' => 'clebertodeschini@gmail.com' }
   spec.summary      = 'FFTextField.'
   spec.source       = { :git => 'https://github.com/clebertodeschini/FFTextField.git' }
-  spec.source_files = 'FFTextField.{h,m}'
+  spec.source_files = 'FFTextField.**/*.{h,m}'
 end
