@@ -6,6 +6,12 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 
-Pod::Spec.new do |s|
-  s.name             = 'FFTextField'
+Pod::Spec.new do |spec|
+  spec.name         = 'FFTextField'
+  spec.version      = '1.0.0'
+  spec.license      = { :type => 'BSD' }
+  spec.homepage     = 'https://github.com/clebertodeschini/FFTextField'
+  spec.authors      = { 'Cleber Todeschini' => 'clebertodeschini@gmail.com' }
+  spec.summary      = 'FFTextField.'
+  spec.source       = { :git => 'https://github.com/clebertodeschini/FFTextField.git' }
 end
