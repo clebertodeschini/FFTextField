@@ -10,7 +10,6 @@ Pod::Spec.new do |spec|
   spec.name         = 'FFTextField'
   spec.version      = '1.0.2'
   spec.summary      = 'A Library that joins common features expected from a textfield in a unique class.'
-  spec.description  = 'FFTextField is a library that brings together functionalities commonly used on app's textfields like masks, error messages, button indicators, activity indicators and right side button embedded on the textfield.'
   spec.homepage     = 'https://FelipeGus@bitbucket.org/FelipeGus/fftextfield.git'
   spec.license      = 'MIT'
   spec.authors      = { 'Felipe Figueiredo' => 'felipegusfigueiredo@gmail.com' }
