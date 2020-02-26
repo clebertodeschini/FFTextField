@@ -14,7 +14,7 @@ import SwiftMaskTextfield
 /// TextField class that makes the composition of some common functions used by apps.
 /// ## Mask:
 /// The mask property allows for the insertion of a pattern mask for the textField.
-/// Refer to the Library SwiftMaskTextField for more details on how to construct the masks.
+/// Refer to the Library SwiftMaskTextfield for more details on how to construct the masks.
 /// ## Indicator:
 
 /// Allows for the insertion of an image indicator on the right of the textfield.
@@ -37,7 +37,7 @@ open class FFTextField: SkyFloatingLabelTextField {
     private var rectHeightModificator: CGFloat { return topMargin + bottomMargin }
     
     public override init(frame: CGRect) {
-        maskTextField = SwiftMaskTextField()
+        maskTextField = SwiftMaskTextfield()
         indicatorView = UIImageView()
         activityIndicator = UIActivityIndicatorView()
         super.init(frame: frame)
@@ -46,7 +46,7 @@ open class FFTextField: SkyFloatingLabelTextField {
     }
     
     public required init?(coder aDecoder: NSCoder) {
-        maskTextField = SwiftMaskTextField()
+        maskTextField = SwiftMaskTextfield()
         indicatorView = UIImageView()
         activityIndicator = UIActivityIndicatorView()
         super.init(coder: aDecoder)
@@ -165,7 +165,7 @@ open class FFTextField: SkyFloatingLabelTextField {
     
     // MARK: - Swift Mask Configuration
     
-    private var maskTextField: SwiftMaskTextField
+    private var maskTextField: SwiftMaskTextfield
     
     public var formatPattern: String? = nil {
         didSet {
