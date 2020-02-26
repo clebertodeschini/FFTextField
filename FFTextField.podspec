@@ -8,14 +8,15 @@
 
 Pod::Spec.new do |spec|
   spec.name         = 'FFTextField'
-  spec.version      = '1.0.0'
-  spec.license      = { :type => 'BSD' }
-  spec.homepage     = 'https://github.com/clebertodeschini/FFTextField'
-  spec.authors      = { 'Cleber Todeschini' => 'clebertodeschini@gmail.com' }
-  spec.summary      = 'FFTextField.'
-  spec.source       = { :git => 'https://github.com/clebertodeschini/FFTextField.git' }
-  spec.source_files = 'FFTextField/**/*.{h,m,swift}'
-  spec.ios.deployment_target  = '9.0'
-  spec.dependency 'SkyFloatingLabelTextField'
-  spec.dependency 'SwiftMaskTextfield'
+  spec.version      = '1.0.2'
+  spec.summary      = 'A Library that joins common features expected from a textfield in a unique class.'
+  spec.description  = 'FFTextField is a library that brings together functionalities commonly used on app's textfields like masks, error messages, button indicators, activity indicators and right side button embedded on the textfield.'
+  spec.homepage     = 'https://FelipeGus@bitbucket.org/FelipeGus/fftextfield.git'
+  spec.license      = 'MIT'
+  spec.authors      = { 'Felipe Figueiredo' => 'felipegusfigueiredo@gmail.com' }
+  spec.social_media_url = 'https://twitter.com/<compmonkey95>'
+  spec.platforms    = { 'ios' => '10.0' }
+  spec.source       = { :git => 'https://github.com/clebertodeschini/FFTextField.git', :tag => '1.0.0' }
+  spec.source_files = { 'FFTextField', 'FFTextField/**/*.{h,m,swift}' }
+  spec.dependencies = { 'SwiftMaskTextfield' => '', 'SkyFloatingLabelTextField' => '~> 3.4.0' }
 end
