@@ -16,7 +16,8 @@ Pod::Spec.new do |spec|
   spec.social_media_url = 'https://twitter.com/<compmonkey95>'
   spec.platform    = { :ios => '10.0' }
   spec.source       = { :git => 'https://github.com/clebertodeschini/FFTextField.git', :tag => '1.0.0' }
-  spec.source_files = { 'FFTextField', 'FFTextField/**/*.{h,m,swift}' }
+  spec.source_files = 'FFTextField'
+  spec.source_files = 'FFTextField/**/*.{h,m,swift}'
   spec.dependency = { 'SwiftMaskTextfield' => '' }
   spec.dependency = { 'SkyFloatingLabelTextField' => '~> 3.4.0' }
 end
