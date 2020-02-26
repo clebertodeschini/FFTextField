@@ -19,5 +19,5 @@ Pod::Spec.new do |spec|
   spec.source_files = 'FFTextField'
   spec.source_files = 'FFTextField/**/*.{h,m,swift}'
   spec.dependency 'SwiftMaskTextfield'
-  spec.dependency SkyFloatingLabelTextField', '~> 3.4.0'
+  spec.dependency 'SkyFloatingLabelTextField', '~> 3.4.0'
 end
